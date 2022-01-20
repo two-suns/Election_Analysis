@@ -49,6 +49,7 @@ The further analysis of the data shows that:
   - The county with the highest turnout was:
     - Denver, which received 82.8% of the vote and 306,055 votes.
 ## Challenge Summary
+### Proposal
 This script can be used for any election.  It may need to be modified to reflect the correct file path to the pertinent files on the user's computer.
 
 <img width="548" alt="code_snip_path" src="https://user-images.githubusercontent.com/59906657/150364351-4a259b47-d31b-4372-a491-dea974258251.PNG">  
@@ -63,3 +64,8 @@ The `.1f` can be modified to the necessary amount of decimal places to get a uni
 
 One other place the code may need to be modified is shown in the following image.  
 
+<img width="512" alt="code_snip_row" src="https://user-images.githubusercontent.com/59906657/150368196-2d9596af-2134-4bca-acbe-37bf0414b2c5.PNG">  
+
+Depending on the arrangement of the data in the resource file it is taken from, the row indexes may not match up exactly.  Updating the row selector in the brackets of the `row[]` section will assure the script is pulling the correct data.
+
+Finally, with the above modifications, I believe this script is perfect to quickly and accurately get the results of any election that the commission conducts. 
