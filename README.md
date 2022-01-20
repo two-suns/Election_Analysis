@@ -36,8 +36,8 @@ The election commission has requested additional data to complete the audit.
 3. The county with the highest turnout.
 
 ### Results
-The further analysis of the data shows that:
-Of the 369,711 total votes cast in the election,
+The further analysis of the data shows that:  
+- Of the 369,711 total votes cast in the election,
   - The counties were:
     - Jefferson
     - Denver
@@ -49,3 +49,17 @@ Of the 369,711 total votes cast in the election,
   - The county with the highest turnout was:
     - Denver, which received 82.8% of the vote and 306,055 votes.
 ## Challenge Summary
+This script can be used for any election.  It may need to be modified to reflect the correct file path to the pertinent files on the user's computer.
+
+<img width="548" alt="code_snip_path" src="https://user-images.githubusercontent.com/59906657/150364351-4a259b47-d31b-4372-a491-dea974258251.PNG">  
+
+The os.path.join() method shown above can be uptdated to match the correct location of files on the user's computer.  Also, they can remove this method altogether and just imput the full path depending on their preference. 
+
+Also, if the percentages of the vote become too close, the amount of floating decimal places can be edited in the places indicated with arrows below. 
+
+<img width="657" alt="code_snip_float" src="https://user-images.githubusercontent.com/59906657/150365730-b3011ab5-30b8-4841-a53d-44f146ede4db.PNG">  
+
+The `.1f` can be modified to the necessary amount of decimal places to get a unique number in order to decide the election.
+
+One other place the code may need to be modified is shown in the following image.  
+
