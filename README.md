@@ -54,7 +54,7 @@ This script can be used for any election.  It may need to be modified to reflect
 
 <img width="548" alt="code_snip_path" src="https://user-images.githubusercontent.com/59906657/150364351-4a259b47-d31b-4372-a491-dea974258251.PNG">  
 
-The os.path.join() method shown above can be uptdated to match the correct location of files on the user's computer.  Also, they can remove this method altogether and just imput the full path depending on their preference. 
+The os.path.join() method shown above can be updated to match the correct location of files on the user's computer.  Also, they can remove this method altogether and just input the full path depending on their preference. 
 
 Also, if the percentages of the vote become too close, the amount of floating decimal places can be edited in the places indicated with arrows below. 
 
